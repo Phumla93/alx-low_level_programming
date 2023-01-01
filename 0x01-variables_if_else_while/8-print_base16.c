@@ -2,21 +2,28 @@
 #include <stdlib.h>
 
 /**
- *  main - returns an alphabet in reverse order
+ * main - Entry point 
  *
- *  Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int ch = 'z';
+	char c;
 
-	while (ch >= 'a')
-	{
-		putchar(ch);
-		ch--;
-	}
+	int d;
+
+	c = 'a';
+	d = 0;
+	while
+		(d < 10) {
+			putchar(d + '0');
+			d++;
+		}
+	while
+		(c <= 'f') {
+			putchar(c);
+			c++;
+		}
 	putchar('\n');
-
 	return (0);
 }
